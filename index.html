@@ -1,6 +1,15 @@
+
 <html>
     <head>
         <title>Checkboxes</title>
+        <style> 
+            body {text-align:center;}
+            h1 {color:#003399;}
+            a {text-decoration: none;color:#FFFFFF;}
+            .bt_on {height:50px; width:100px; margin:10px 0;background-color:#FF6600;border-radius:5px;}
+            .bt_off {height:50px; width:100px; margin:10px 0;background-color:#00FF00;border-radius:5px;}
+         </style>
+         <meta charset="UTF-8">
     </head>
     <body>
         <h1>Tell me about your dog</h1>
@@ -15,6 +24,16 @@
                 <input type="radio" name="age">Older than 7 years<br>
             <p>
                 <input type="button" value="I'm done">
+                <h1>ESP8266 Web Server</h1> 
+      <div>Trạng thái trên chân D1: <b>OFF</b></div>
+      <div>
+        <button class="bt_on"><a href="/onD1">ON</a></button>
+        <button class="bt_off"><a href="/offD1">OFF</a></button>
+      </div>
+      <div>Trạng thái trên chân D2: <b>OFF</b></div>
+      <div>
+        <button class="bt_on"><a href="/onD2">ON</a></button>
+        <button class="bt_off"><a href="/offD2">OFF</a></button>
+      </div>
         </form>
     </body>
-</html>
